@@ -16,9 +16,11 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.img6{
+
+.img6 {
     height: 80px;
 }
+
 .heading11 {
     text-align: center;
     color: white;
@@ -37,6 +39,7 @@ span {
 
 .heading22 {
     margin-left: 30px;
+    margin-top: 230px;
     font-family: 'Libre Baskerville', serif;
     font-size: 80px;
     opacity: 0.7;
@@ -44,11 +47,12 @@ span {
 }
 
 .bgimage {
-    background-image: url("./images/f2.jpg.crdownload");
+    background-image: url("./images/mustang\ bg.jpg");
     background-size: cover;
-    height: 1000px;
+    height: 1300px;
     width: 100%;
     padding-TOP: 100PX;
+    margin-top: -300px;
 }
 
 .button1 {
@@ -106,7 +110,7 @@ span {
 
     height: 800px;
     width: 40%;
-    margin-top: 150px;
+    margin-top: 100px;
     /* background-color: red; */
     margin-left: 30px;
 
@@ -147,18 +151,21 @@ span {
     display: flex;
     justify-content: space-between;
 }
-form{
+
+form {
     padding: 80px;
     margin-left: 200px;
 }
-table{
+
+table {
     height: 1000px;
     /* width: 50%; */
     border-left: 2px rgba(121, 118, 118, 0.247) solid;
     border-width: 3px;
 
 }
-.bgimg2{
+
+.bgimg2 {
     background-image: url("./images/blue-ford-mustang-ll.jpg");
     background-size: cover;
     height: 100%;
@@ -178,11 +185,11 @@ table{
     border-radius: 15px;
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(255, 255, 255);
-   
-    
+
+
 }
 
-.spec{
+.spec {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 40%;
@@ -190,22 +197,27 @@ table{
     font-size: x-large;
     font-weight: 700;
     text-align: center;
-  }
-  
-  .spec td, .spec th {
+}
+
+.spec td,
+.spec th {
     border: 1px solid rgba(248, 242, 242, 0.247);
     padding: 10px;
-  }
-  
-  .spec tr:nth-child(even){background-color: #f2f2f249;}
-  
-  .spec tr:hover {background-color: rgba(221, 221, 221, 0.219);}
-  
-  .spec th {
+}
+
+.spec tr:nth-child(even) {
+    background-color: #f2f2f249;
+}
+
+.spec tr:hover {
+    background-color: rgba(221, 221, 221, 0.219);
+}
+
+.spec th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #096929;
     color: white;
     text-align: center;
-  }
+}
