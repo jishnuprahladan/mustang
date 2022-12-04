@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nerko+One&family=Patrick+Hand&family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: rgba(53, 50, 50, 0.74);
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 84, 0.5326505602240896) 47%, rgb(5, 89, 105) 100%);
+    font-family: 'Dancing Script', cursive;
+    position: sticky;
+    top: 0px;
+    font-size: xx-large;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.img6{
+    height: 80px;
+}
+.heading11 {
+    text-align: center;
+    color: white;
+    /* box-shadow: 10px 10px 10px black; */
+    margin-top: 0px;
+}
+
+span {
+    background-color: red;
+    padding: 10px;
+}
+
+.b1 {
+    position: relative;
+}
+
+.heading22 {
+    margin-left: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+    opacity: 0.7;
+    /* position: absolute; */
+}
+
+.bgimage {
+    background-image: url("./images/f2.jpg.crdownload");
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    padding-TOP: 100PX;
+}
+
+.button1 {
+    background-color: rgb(9, 40, 105);
+    width: 8%;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 300px;
+    font-weight: 800;
+    font-size: x-large;
+    border: 0;
+    box-shadow: 10px 10px 10px black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.button1:hover {
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.first {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.r1 {
+    margin-top: 80px;
+}
+
+.img1 {
+    height: 250px;
+    width: 90%;
+    border: 7px rgba(255, 255, 255, 0.404) solid;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.img1:hover {
+    transition: .5s;
+    transform: scale(1.1);
+
+}
+
+
+.main {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(243, 240, 240) 47%, rgba(151, 157, 155, 1) 56%, rgba(84, 84, 84, 1) 72%, rgba(34, 36, 37, 1) 100%);
+}
+
+.colu {
+
+    height: 800px;
+    width: 40%;
+    margin-top: 150px;
+    /* background-color: red; */
+    margin-left: 30px;
+
+}
+
+.img2 {
+    height: 150%;
+    width: 120%;
+    transform: rotateY(180deg);
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0px;
+}
+
+.heading {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+    text-align: center;
+    border-left: 2px rgba(155, 149, 149, 0.5)solid;
+    border-width: 3px;
+    color: aliceblue;
+}
+
+.para5 {
+    color: aliceblue;
+    height: 400px;
+    font-size: xx-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 80px;
+    text-align: justify;
+    padding-top: 0px;
+    line-height: 40px;
+    border-left: 2px rgba(158, 156, 156, 0.5) solid;
+    border-width: 3px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    padding: 80px;
+    margin-left: 200px;
+}
+table{
+    height: 1000px;
+    /* width: 50%; */
+    border-left: 2px rgba(121, 118, 118, 0.247) solid;
+    border-width: 3px;
+
+}
+.bgimg2{
+    background-image: url("./images/blue-ford-mustang-ll.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.labels {
+    background-color: black;
+    opacity: 0.8;
+    margin: 100px;
+    margin-right: 300px;
+    border: 2px rgb(22, 20, 20) solid;
+    padding: 100px;
+    width: 500px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+   
+    
+}
+
+.spec{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    color: rgb(235, 227, 227);
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .spec td, .spec th {
+    border: 1px solid rgba(248, 242, 242, 0.247);
+    padding: 10px;
+  }
+  
+  .spec tr:nth-child(even){background-color: #f2f2f249;}
+  
+  .spec tr:hover {background-color: rgba(221, 221, 221, 0.219);}
+  
+  .spec th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #096929;
+    color: white;
+    text-align: center;
+  }
