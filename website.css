@@ -2,10 +2,11 @@
 
 body {
     background-color: rgba(53, 50, 50, 0.74);
+
 }
 
 .header {
-    height: 80px;
+    height: 50px;
     width: 100%;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 84, 0.5326505602240896) 47%, rgb(5, 89, 105) 100%);
@@ -18,14 +19,27 @@ body {
 }
 
 .img6 {
-    height: 80px;
+    height: 50px;
 }
 
 .heading11 {
     text-align: center;
     color: white;
-    /* box-shadow: 10px 10px 10px black; */
-    margin-top: 0px;
+}
+
+.bgimage {
+    background-image: url("./images/mustang\ bg.jpg");
+    background-size: cover;
+
+
+}
+
+.heading22 {
+    margin-left: 30px;
+    padding-top: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+    opacity: 0.7;
 }
 
 span {
@@ -33,37 +47,15 @@ span {
     padding: 10px;
 }
 
-.b1 {
-    position: relative;
-}
-
-.heading22 {
-    margin-left: 30px;
-    margin-top: 230px;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 80px;
-    opacity: 0.7;
-    /* position: absolute; */
-}
-
-.bgimage {
-    background-image: url("./images/mustang\ bg.jpg");
-    background-size: cover;
-    height: 1300px;
-    width: 100%;
-    padding-TOP: 100PX;
-    margin-top: -300px;
-}
-
 .button1 {
-    background-color: rgb(9, 40, 105);
-    width: 8%;
+    background-color: rgb(17, 26, 114);
+    width: 200px;
     height: 50px;
+    border: 0px;
     border-radius: 15px;
-    margin-left: 300px;
+    margin-left: 200px;
     font-weight: 800;
     font-size: x-large;
-    border: 0;
     box-shadow: 10px 10px 10px black;
     color: aliceblue;
     cursor: pointer;
@@ -76,18 +68,18 @@ span {
 
 .first {
     display: flex;
-    justify-content: flex-end;
-}
-
-.r1 {
-    margin-top: 80px;
+    height: 200px;
+    width: 15%;
+ padding-bottom: 20px;
+    margin-left: 20%;
+    margin-top: 400px;
 }
 
 .img1 {
-    height: 250px;
-    width: 90%;
-    border: 7px rgba(255, 255, 255, 0.404) solid;
-    margin: 10px;
+    height: 100%;
+    width: 100%;
+    border: 7px rgba(255, 255, 255, 0.295) solid;
+    margin: 5px;
     border-radius: 10px;
 }
 
@@ -97,106 +89,37 @@ span {
 
 }
 
+.g1 {
+    margin-left: 10px;
+}
 
 .main {
     display: flex;
-    padding: 50px;
+    padding: 10px;
     justify-content: space-evenly;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgb(243, 240, 240) 47%, rgba(151, 157, 155, 1) 56%, rgba(84, 84, 84, 1) 72%, rgba(34, 36, 37, 1) 100%);
+    background: linear-gradient(90deg, rgba(59, 57, 57, 0.384) 47%, rgba(151, 157, 155, 1) 56%, rgba(84, 84, 84, 1) 72%, rgba(34, 36, 37, 1) 100%);
 }
 
 .colu {
-
-    height: 800px;
-    width: 40%;
-    margin-top: 100px;
-    /* background-color: red; */
-    margin-left: 30px;
-
+    height: 500px;
+    width: 45%;
 }
 
 .img2 {
-    height: 150%;
-    width: 120%;
-    transform: rotateY(180deg);
-    margin-top: 0px;
-    padding-top: 0px;
-    border: 0px;
-}
-
-.heading {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 80px;
-    text-align: center;
-    border-left: 2px rgba(155, 149, 149, 0.5)solid;
-    border-width: 3px;
-    color: aliceblue;
-}
-
-.para5 {
-    color: aliceblue;
-    height: 400px;
-    font-size: xx-large;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 80px;
-    text-align: justify;
-    padding-top: 0px;
-    line-height: 40px;
-    border-left: 2px rgba(158, 156, 156, 0.5) solid;
-    border-width: 3px;
-}
-
-.for {
-    display: flex;
-    justify-content: space-between;
-}
-
-form {
-    padding: 80px;
-    margin-left: 200px;
-}
-
-table {
-    height: 1000px;
-    /* width: 50%; */
-    border-left: 2px rgba(121, 118, 118, 0.247) solid;
-    border-width: 3px;
-
-}
-
-.bgimg2 {
-    background-image: url("./images/blue-ford-mustang-ll.jpg");
-    background-size: cover;
-    height: 100%;
+    height: 180%;
     width: 100%;
+    transform: rotateY(180deg);
 }
 
-.labels {
-    background-color: black;
-    opacity: 0.8;
-    margin: 100px;
-    margin-right: 300px;
-    border: 2px rgb(22, 20, 20) solid;
-    padding: 100px;
-    width: 500px;
-    text-align: center;
-    padding-top: 50px;
-    border-radius: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(255, 255, 255);
-
-
-}
 
 .spec {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 40%;
-    color: rgb(235, 227, 227);
-    font-size: x-large;
-    font-weight: 700;
+    color: rgb(10, 10, 10);
+    font-size: large;
+    font-weight: 400;
     text-align: center;
+    margin-top: 10px;
 }
 
 .spec td,
@@ -216,8 +139,68 @@ table {
 .spec th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
     background-color: #096929;
     color: white;
+}
+
+table {
+    border-left: 2px rgba(121, 118, 118, 0.247) solid;
+    border-width: 3px;
+
+}
+
+
+.for {
+    background-image: url("./images/blue-ford-mustang-ll.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column1{
+    width: 50%;
+}
+.heading {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
     text-align: center;
+    color: aliceblue;
+    margin-top: 200px;
+}
+
+.para5 {
+    color: aliceblue;
+    font-size: x-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    text-align: justify;
+    padding-top: 10px;
+    line-height: 40px;
+
+}
+
+
+
+form {
+padding: 40px;
+width: 100%;
+}
+
+
+
+.labels {
+    margin: 30px;
+    width: 400px;
+    height: 800px;
+    background-color: black;
+    opacity: 0.7;
+    border: 2px rgb(22, 20, 20) solid;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+
+
 }
